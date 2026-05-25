@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-25T10:13:23.898Z",
+  "generatedAt": "2026-05-25T10:22:41.189Z",
   "source": "synthetic",
   "tickers": {
     "POLY": {
       "ticker": "POLY",
       "price": 920,
       "prevClose": 927.5885322368854,
-      "ts": 1779704003898,
+      "ts": 1779704561188,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -106,7 +106,7 @@
       "ticker": "ISOP",
       "price": 720,
       "prevClose": 718.4637997403897,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -206,7 +206,7 @@
       "ticker": "FORAM",
       "price": 1450,
       "prevClose": 1463.7757140352114,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -306,7 +306,7 @@
       "ticker": "GASTRO",
       "price": 285,
       "prevClose": 298.1879317866232,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -406,7 +406,7 @@
       "ticker": "ECHIN",
       "price": 410,
       "prevClose": 413.7662950207645,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -506,7 +506,7 @@
       "ticker": "CNIDA",
       "price": 530,
       "prevClose": 533.7204261035398,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -606,7 +606,7 @@
       "ticker": "PORI",
       "price": 340,
       "prevClose": 348.87420961372146,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -706,7 +706,7 @@
       "ticker": "TUNI",
       "price": 175,
       "prevClose": 171.78598562784623,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -806,7 +806,7 @@
       "ticker": "CEPH",
       "price": 96,
       "prevClose": 97.81197720558816,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -906,7 +906,7 @@
       "ticker": "ELASMO",
       "price": 64,
       "prevClose": 64.02757965547814,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -1006,7 +1006,7 @@
       "ticker": "AMPHIPOD",
       "price": 380,
       "prevClose": 394.71226937878674,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [
@@ -1106,7 +1106,7 @@
       "ticker": "MICROB",
       "price": 1180,
       "prevClose": 1188.0367862719957,
-      "ts": 1779704003898,
+      "ts": 1779704561189,
       "currency": "USD",
       "exchange": "SIM",
       "closes": [

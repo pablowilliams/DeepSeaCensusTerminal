@@ -85,7 +85,7 @@
 
       <div class="strategy-bar">
         <fieldset class="strategy-fieldset">
-          <legend>Trading strategies <span class="legend-hint">pick one or more — signals combine</span></legend>
+          <legend>Census strategies <span class="legend-hint">pick one or more — signals combine</span></legend>
           <div class="strategy-options" id="strategy-options"></div>
         </fieldset>
       </div>
@@ -366,6 +366,7 @@
           <nav aria-labelledby="methodology-toc-heading" class="methodology-toc">
             <h3 id="methodology-toc-heading">On this page</h3>
             <ol>
+              <li><a href="#m-abstract">Abstract</a></li>
               <li><a href="#m-model">Stochastic model</a></li>
               <li><a href="#m-calib">Calibration</a></li>
               <li><a href="#m-impl">Numerical implementation</a></li>
@@ -379,6 +380,9 @@
           </nav>
 
           <article class="methodology-article">
+            <h3 id="m-abstract">Abstract</h3>
+            <p>This dashboard implements a non-parametric species-richness estimation layer over bathyal, abyssal, and hadal biodiversity from the World Register of Marine Species (WoRMS) and the Ocean Biodiversity Information System (OBIS). The Chao1 estimator (<cite>Chao, 1984</cite>) provides a provable lower bound on true clade richness from singleton and doubleton frequencies, and is preferred over parametric saturating-curve fits (<cite>Mora et al., 2011</cite>) because it does not require committing to a functional form. ACE (<cite>Chao &amp; Shen, 2004</cite>) provides a tighter estimate when sample coverage is high. The depth-zone framework (epi/meso/bathy/abyss/hadal) follows the standard physical-oceanography convention and is anchored to OBIS occurrence depth records.</p>
+
             <h3 id="m-model">Stochastic model</h3>
             <p>The deep ocean (200 m and below) is the largest contiguous habitat on Earth and biology's least-explored frontier. Estimating <em>how many species exist</em> in a clade given how many have been described is the classical species-accumulation problem. The number of observed species <code>S_obs</code> grows monotonically with cumulative sampling effort <code>E</code> but at a decreasing rate; the asymptote <code>S_∞</code> is the true richness. We use the standard saturating Poisson-rate framework (Mora et al. 2011):</p>
       <p class="m-eq"><span role="math" aria-label="S of E equals S sub infinity times 1 minus e to the minus lambda E over S sub infinity">S(E) = S_∞ (1 − e^{−λ E / S_∞})</span></p>
